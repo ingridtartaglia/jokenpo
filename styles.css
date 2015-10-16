@@ -22,8 +22,12 @@
         font-weight: bolder;
     }
 }
+@media screen and (max-width: 460px) {
+    .options-btn {
+        display: block !important;
+    }
+}
 
-.btn-group {
-    text-align: center;
-    margin: 0 auto;
+.options-btn > .btn {
+    margin-bottom: 5px;
 }
