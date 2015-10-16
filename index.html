@@ -2,6 +2,7 @@
 <head>
     <title>#13 - Jokenpo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -10,7 +11,7 @@
         <h1 class="text-center">Jokenpo</h1>
         <div class="row">
             <div class="col-xs-6">
-                <img ng-src="{{yourHands}}">
+                <img ng-src="{{yourHands}}" class="animated fadeInLeft">
                 <div class="options-btn" role="group">
                         <button type="button" class="btn btn-primary" ng-click="clickRock()">Rock</button>
                         <button type="button" class="btn btn-primary" ng-click="clickPaper()">Paper</button>
@@ -18,7 +19,7 @@
                 </div>
             </div>
             <div class="col-xs-6 pc-ph">
-                <img ng-src="{{pcHands}}">
+                <img ng-src="{{pcHands}}" class="animated fadeInRight">
             </div>
         </div>
         <div class="row">
