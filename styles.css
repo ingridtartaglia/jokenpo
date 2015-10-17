@@ -2,6 +2,15 @@
   display: none !important;
 }
 
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #9be9ce;
+    color: #2f463e;
+    letter-spacing: 3px;
+}
+
+h1 { font-size: 4em; }
+
 @media screen and (min-width: 768px) {
     img {
         max-height: 100%;
@@ -10,8 +19,7 @@
     }
     .text-message {
         margin-top: 2em;
-        font-size: 2em;
-        font-weight: bolder;
+        font-size: 3em;
     }
 }
 @media screen and (max-width: 768px) {
@@ -22,8 +30,7 @@
     }
     .text-message {
         margin-top: 1em;
-        font-size: 2em;
-        font-weight: bolder;
+        font-size: 3em;
     }
 }
 @media screen and (max-width: 460px) {
@@ -34,4 +41,13 @@
 
 .options-btn > .btn {
     margin-bottom: 5px;
+    font-family: sans-serif;
+    border-radius: 0;
+    outline: none;
+    border-color: #2f463e;
+    background-color: #2f463e;
+}
+
+.btn:active:focus, .btn:focus {
+    outline-color: green;
 }
