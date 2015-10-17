@@ -44,8 +44,8 @@ h1 { font-size: 4em; }
     font-family: sans-serif;
     border-radius: 0;
     outline: none;
-    border-color: #2f463e;
-    background-color: #2f463e;
+    border-color: #4c5754;
+    background-color: #4c5754;
 }
 
 .btn:active:focus, .btn:focus {
